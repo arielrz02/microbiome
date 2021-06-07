@@ -349,3 +349,4 @@ def from_biom(biom_file_path, taxonomy_file_path, otu_dest_path, **kwargs):
     otu_table = otu_table.transpose()
     otu_table.index.name = 'ID'
     otu_table.to_csv(otu_dest_path)
+    
